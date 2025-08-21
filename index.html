@@ -201,9 +201,7 @@
         }
 
         const apiKey = "3f3ef282c2444b4395580124252108";
-        const url = `http://api.weatherapi.com/v1/forecast.json?key=${apiKey}&q=${encodeURIComponent(
-          city
-        )}&days=3&aqi=no`;
+        const url = `https://api.weatherapi.com/v1/forecast.json?key=${apiKey}&q=${encodeURIComponent(city)}&days=3&aqi=no`;
 
         try {
           forecastDiv.innerHTML = "Loading...";
